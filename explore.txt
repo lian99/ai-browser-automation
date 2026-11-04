@@ -1,0 +1,231 @@
+
+===== after login =====
+{
+  "url": "https://straix-candidate-challenge.odubovsky.chatgpt.site/workspace",
+  "title": "Case Portal",
+  "text": "Open records",
+  "links": [
+    {
+      "text": "Open records",
+      "href": "https://straix-candidate-challenge.odubovsky.chatgpt.site/cases",
+      "visible": true
+    }
+  ],
+  "buttons": [],
+  "inputs": [],
+  "hidden": [],
+  "comments": [],
+  "metas": [
+    "<meta charset=\"utf-8\">",
+    "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+    "<meta name=\"description\" content=\"Candidate exercise\">"
+  ],
+  "dataAttrs": [
+    "TEMPLATE.data-next=/cases"
+  ]
+}
+
+===== https://straix-candidate-challenge.odubovsky.chatgpt.site/cases =====
+{
+  "url": "https://straix-candidate-challenge.odubovsky.chatgpt.site/cases",
+  "title": "Case Portal",
+  "text": "Service notice\nRequest for information\nHearing date\n1+1\nFinal decision",
+  "links": [
+    {
+      "text": "Service notice",
+      "href": "https://straix-candidate-challenge.odubovsky.chatgpt.site/cases/1",
+      "visible": true
+    },
+    {
+      "text": "Request for information",
+      "href": "https://straix-candidate-challenge.odubovsky.chatgpt.site/cases/2",
+      "visible": true
+    },
+    {
+      "text": "Hearing date",
+      "href": "https://straix-candidate-challenge.odubovsky.chatgpt.site/cases/3",
+      "visible": true
+    },
+    {
+      "text": "1+1",
+      "href": "https://straix-candidate-challenge.odubovsky.chatgpt.site/cases/4",
+      "visible": true
+    },
+    {
+      "text": "Final decision",
+      "href": "https://straix-candidate-challenge.odubovsky.chatgpt.site/cases/5",
+      "visible": true
+    }
+  ],
+  "buttons": [],
+  "inputs": [],
+  "hidden": [],
+  "comments": [],
+  "metas": [
+    "<meta charset=\"utf-8\">",
+    "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+    "<meta name=\"description\" content=\"Candidate exercise\">"
+  ],
+  "dataAttrs": []
+}
+
+===== https://straix-candidate-challenge.odubovsky.chatgpt.site/cases/1 =====
+{
+  "url": "https://straix-candidate-challenge.odubovsky.chatgpt.site/cases/1",
+  "title": "Case Portal",
+  "text": "No answer in this record.\n\nBack to records",
+  "links": [
+    {
+      "text": "Back to records",
+      "href": "https://straix-candidate-challenge.odubovsky.chatgpt.site/cases",
+      "visible": true
+    }
+  ],
+  "buttons": [],
+  "inputs": [],
+  "hidden": [],
+  "comments": [],
+  "metas": [
+    "<meta charset=\"utf-8\">",
+    "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+    "<meta name=\"description\" content=\"Candidate exercise\">"
+  ],
+  "dataAttrs": [
+    "TEMPLATE.data-id=1"
+  ]
+}
+
+===== https://straix-candidate-challenge.odubovsky.chatgpt.site/cases/2 =====
+{
+  "url": "https://straix-candidate-challenge.odubovsky.chatgpt.site/cases/2",
+  "title": "Case Portal",
+  "text": "No answer in this record.\n\nBack to records",
+  "links": [
+    {
+      "text": "Back to records",
+      "href": "https://straix-candidate-challenge.odubovsky.chatgpt.site/cases",
+      "visible": true
+    }
+  ],
+  "buttons": [],
+  "inputs": [],
+  "hidden": [],
+  "comments": [],
+  "metas": [
+    "<meta charset=\"utf-8\">",
+    "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+    "<meta name=\"description\" content=\"Candidate exercise\">"
+  ],
+  "dataAttrs": [
+    "TEMPLATE.data-id=2"
+  ]
+}
+
+===== https://straix-candidate-challenge.odubovsky.chatgpt.site/cases/3 =====
+{
+  "url": "https://straix-candidate-challenge.odubovsky.chatgpt.site/cases/3",
+  "title": "Case Portal",
+  "text": "No answer in this record.\n\nBack to records",
+  "links": [
+    {
+      "text": "Back to records",
+      "href": "https://straix-candidate-challenge.odubovsky.chatgpt.site/cases",
+      "visible": true
+    }
+  ],
+  "buttons": [],
+  "inputs": [],
+  "hidden": [],
+  "comments": [],
+  "metas": [
+    "<meta charset=\"utf-8\">",
+    "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+    "<meta name=\"description\" content=\"Candidate exercise\">"
+  ],
+  "dataAttrs": [
+    "TEMPLATE.data-id=3"
+  ]
+}
+
+===== https://straix-candidate-challenge.odubovsky.chatgpt.site/cases/4 =====
+{
+  "url": "https://straix-candidate-challenge.odubovsky.chatgpt.site/cases/4",
+  "title": "Case Portal",
+  "text": "1+1\nLoad answer\nAnswer\nSubmit answer\n\nBack to records",
+  "links": [
+    {
+      "text": "Back to records",
+      "href": "https://straix-candidate-challenge.odubovsky.chatgpt.site/cases",
+      "visible": true
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Load answer",
+      "aria": null,
+      "visible": true
+    },
+    {
+      "text": "Submit answer",
+      "aria": null,
+      "visible": true
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "answer",
+      "id": "answer",
+      "placeholder": "",
+      "value": "",
+      "visible": true
+    }
+  ],
+  "hidden": [],
+  "comments": [],
+  "metas": [
+    "<meta charset=\"utf-8\">",
+    "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+    "<meta name=\"description\" content=\"Candidate exercise\">"
+  ],
+  "dataAttrs": [
+    "TEMPLATE.data-id=4",
+    "TEMPLATE.data-question=1+1",
+    "TEMPLATE.data-answer-method=GET",
+    "TEMPLATE.data-answer-endpoint=/api/records/7e4a1d3f",
+    "TEMPLATE.data-submit-method=POST",
+    "TEMPLATE.data-submit-endpoint=/api/submit",
+    "TEMPLATE.data-submit-field=answer",
+    "BUTTON.data-variant=default",
+    "BUTTON.data-size=default",
+    "BUTTON.data-variant=default",
+    "BUTTON.data-size=default"
+  ]
+}
+
+===== https://straix-candidate-challenge.odubovsky.chatgpt.site/cases/5 =====
+{
+  "url": "https://straix-candidate-challenge.odubovsky.chatgpt.site/cases/5",
+  "title": "Case Portal",
+  "text": "No answer in this record.\n\nBack to records",
+  "links": [
+    {
+      "text": "Back to records",
+      "href": "https://straix-candidate-challenge.odubovsky.chatgpt.site/cases",
+      "visible": true
+    }
+  ],
+  "buttons": [],
+  "inputs": [],
+  "hidden": [],
+  "comments": [],
+  "metas": [
+    "<meta charset=\"utf-8\">",
+    "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+    "<meta name=\"description\" content=\"Candidate exercise\">"
+  ],
+  "dataAttrs": [
+    "TEMPLATE.data-id=5"
+  ]
+}
